@@ -1,0 +1,144 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C09",
+  "mode": "cat0_flat_mean_width",
+  "submode": "cat0_quadrilateral_midpoint",
+  "claim_ref": "Lemma 4.4 & Sec. 4.4: 3x4 Euclidean rectangle + midpoint achieves exact CAT(0) Eq. (4.4) and Eq. (4.5) equality",
+  "num_sites": 5,
+  "distance_matrix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    [
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    [
+      [
+        5,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    [
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    [
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  ],
+  "geodesic_checks": [
+    {
+      "x": 0,
+      "y": 2,
+      "m": 4,
+      "z": 1,
+      "s": [
+        1,
+        2
+      ],
+      "expect_equality": true
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "m": 4,
+      "z": 0,
+      "s": [
+        1,
+        2
+      ],
+      "expect_equality": true
+    }
+  ]
+}

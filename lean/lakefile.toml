@@ -1,0 +1,7 @@
+name = "tensor_spectrum_cert"
+version = "0.1.0"
+defaultTargets = ["TensorSpectrumCert"]
+
+[[lean_lib]]
+name = "TensorSpectrumCert"
+moreLeanArgs = ["-j", "1"]

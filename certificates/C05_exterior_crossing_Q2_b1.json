@@ -1,0 +1,12 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C05",
+  "mode": "exterior_crossing_fermion",
+  "submode": "exterior_crossing",
+  "claim_ref": "Eq. (3.2) & Eq. (3.3) on Lambda^1 Z^2: symmetric rank-1 + rank-1 crossing of E(2) x E(2)",
+  "Q": 2,
+  "b": 1,
+  "expected_R": 2,
+  "expected_R_plus": 1,
+  "expected_R_minus": 1
+}

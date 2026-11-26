@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Constructive Rational and Exterior-Algebra Certificates for Euclidean Geometry in the Asymptotic Spectrum of Tensors"
+message: "If you use this software or certificate suite, please cite it as below."
+type: software
+authors:
+  - family-names: "Eriksson"
+    given-names: "Lluis"
+    email: "lluis@airr.science"
+version: "1.0.0"
+date-released: "2026-11-26"
+license: MIT
+repository-code: "https://github.com/lluiseriksson/openai-tensor-asymptotic-spectrum-certificates"

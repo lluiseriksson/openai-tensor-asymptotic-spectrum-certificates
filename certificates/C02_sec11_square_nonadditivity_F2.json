@@ -1,0 +1,87 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C02",
+  "mode": "flattening_cut_nonadditivity",
+  "claim_ref": "Sec. 1.1 over F_2: characteristic-2 invariance of midline cut non-additivity",
+  "field_char": 2,
+  "certify_nonadditivity": true,
+  "cuts": [
+    {
+      "cut_label": "vertical_midline_F2",
+      "matrix_U": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "matrix_V": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "expected_rank_U": 2,
+      "expected_rank_V": 1
+    },
+    {
+      "cut_label": "horizontal_midline_F2",
+      "matrix_U": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "matrix_V": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "expected_rank_U": 1,
+      "expected_rank_V": 2
+    }
+  ],
+  "four_point_test": {
+    "d_AB": [
+      1,
+      2
+    ],
+    "d_BC": [
+      1,
+      2
+    ],
+    "d_CD": [
+      1,
+      2
+    ],
+    "d_DA": [
+      1,
+      2
+    ],
+    "d_AC": [
+      1,
+      1
+    ],
+    "d_BD": [
+      1,
+      1
+    ],
+    "expect_cat0_violation": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C06",
+  "mode": "exterior_crossing_fermion",
+  "submode": "exterior_crossing",
+  "claim_ref": "Eq. (3.2) & Theorem 4.1 asymmetric shift on Lambda^1 Z^4: R=4, R+=6, R-=1 over Z",
+  "Q": 4,
+  "b": 1,
+  "expected_R": 4,
+  "expected_R_plus": 6,
+  "expected_R_minus": 1
+}

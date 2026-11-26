@@ -1,0 +1,133 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C12",
+  "mode": "cat0_flat_mean_width",
+  "submode": "polygon_mean_width_copying",
+  "claim_ref": "Theorem 5.3 & Prop. 5.2: 3x4 rectangle W=7, interior copy z=(3/2,2), tight submodularity 7+5 <= 6+6",
+  "polygon_vertices": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ]
+  ],
+  "edge_lengths": [
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      1
+    ]
+  ],
+  "expected_mean_width": [
+    7,
+    1
+  ],
+  "interior_point": {
+    "z": [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "convex_weights": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "delta_with_z": [
+      7,
+      1
+    ]
+  },
+  "submodularity_check": {
+    "indices_A": [
+      0,
+      1,
+      2
+    ],
+    "indices_B": [
+      0,
+      2,
+      3
+    ],
+    "delta_A": [
+      6,
+      1
+    ],
+    "delta_B": [
+      6,
+      1
+    ],
+    "delta_A_inter_B": [
+      5,
+      1
+    ],
+    "delta_A_union_B": [
+      7,
+      1
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C04",
+  "mode": "flattening_cut_nonadditivity",
+  "claim_ref": "Sec. 2.1 proportional flattening control over F_5: U=(2,2), V=(3,3) preserves additivity",
+  "field_char": 5,
+  "certify_nonadditivity": false,
+  "cuts": [
+    {
+      "cut_label": "cut_1",
+      "matrix_U": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "matrix_V": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "expected_rank_U": 2,
+      "expected_rank_V": 3
+    },
+    {
+      "cut_label": "cut_2",
+      "matrix_U": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "matrix_V": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "expected_rank_U": 2,
+      "expected_rank_V": 3
+    }
+  ],
+  "four_point_test": {
+    "d_AB": [
+      3,
+      1
+    ],
+    "d_BC": [
+      4,
+      1
+    ],
+    "d_CD": [
+      3,
+      1
+    ],
+    "d_DA": [
+      4,
+      1
+    ],
+    "d_AC": [
+      5,
+      1
+    ],
+    "d_BD": [
+      5,
+      1
+    ],
+    "expect_cat0_violation": false
+  }
+}

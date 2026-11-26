@@ -1,0 +1,20 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C13",
+  "mode": "cat0_flat_mean_width",
+  "submode": "copying_quadratic_degeneration",
+  "claim_ref": "Prop. 5.2 (p. 24): stage-1 survival (g=h=2) and stage-2 positive quadratic weight sum (v_j - v_1)^2 = 2",
+  "r": 4,
+  "q": 5,
+  "h": 2,
+  "v": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "g": 2,
+  "expected_L": 33,
+  "survives_first_degeneration": true,
+  "survives_second_degeneration": false
+}

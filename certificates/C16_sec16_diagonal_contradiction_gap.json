@@ -1,0 +1,20 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C16",
+  "mode": "catalyst_gap_routing_budget",
+  "submode": "diagonal_contradiction_gap",
+  "claim_ref": "Sec. 16.1 Eq. (16.1): in-regime gap 0 < 95396 < 128000 = H(I) (saving 32604) contradicts Z - Z_hat = I",
+  "flat_dim_k": 2,
+  "grid_cells_g": 4,
+  "scale_R": 64,
+  "external_pairs_E": 1000,
+  "cell_gap_D": [
+    50000,
+    1
+  ],
+  "grid_const_Ck": [
+    2,
+    1
+  ],
+  "selector_len_ell": 50
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C01",
+  "mode": "flattening_cut_nonadditivity",
+  "claim_ref": "Sec. 1.1 & Eq. (4.5): square midline geometric mean 3 > 2*sqrt(2) and Hamming square 4-point violation over Q",
+  "field_char": 0,
+  "certify_nonadditivity": true,
+  "cuts": [
+    {
+      "cut_label": "vertical_midline",
+      "matrix_U": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "matrix_V": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "expected_rank_U": 2,
+      "expected_rank_V": 1
+    },
+    {
+      "cut_label": "horizontal_midline",
+      "matrix_U": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "matrix_V": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "expected_rank_U": 1,
+      "expected_rank_V": 2
+    }
+  ],
+  "four_point_test": {
+    "d_AB": [
+      1,
+      1
+    ],
+    "d_BC": [
+      1,
+      1
+    ],
+    "d_CD": [
+      1,
+      1
+    ],
+    "d_DA": [
+      1,
+      1
+    ],
+    "d_AC": [
+      2,
+      1
+    ],
+    "d_BD": [
+      2,
+      1
+    ],
+    "expect_cat0_violation": true
+  }
+}

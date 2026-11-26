@@ -1,0 +1,10 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C07",
+  "mode": "exterior_crossing_fermion",
+  "submode": "vandermonde_unimodular",
+  "claim_ref": "Theorem 4.1 proof (p. 19): unit lower triangular P^[2] and det(C^[2])=+-1 for H=9/2 (4 states)",
+  "two_H": 9,
+  "block_size_m": 2,
+  "expected_num_states": 4
+}

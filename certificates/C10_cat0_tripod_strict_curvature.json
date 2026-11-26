@@ -1,0 +1,106 @@
+{
+  "schema": "TENSOR-SPEC-CERT-1.0",
+  "certificate_id": "C10",
+  "mode": "cat0_flat_mean_width",
+  "submode": "cat0_quadrilateral_midpoint",
+  "claim_ref": "Theorem 4.3 & Eq. (4.4): metric tripod satisfies strict CAT(0) curvature (4 < 12) and Eq. (4.5)",
+  "num_sites": 4,
+  "distance_matrix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  ],
+  "geodesic_checks": [
+    {
+      "x": 1,
+      "y": 2,
+      "m": 0,
+      "z": 3,
+      "s": [
+        1,
+        2
+      ],
+      "expect_equality": false
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "m": 0,
+      "z": 2,
+      "s": [
+        1,
+        2
+      ],
+      "expect_equality": false
+    }
+  ]
+}
